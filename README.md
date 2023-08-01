@@ -30,7 +30,7 @@
 
                                                             **** I2C HUB ****
 <p align="center">
-  <img width="600" height="200" src="(https://github.com/himazz/McQueen/assets/25781254/7c78dd78-469e-4711-9756-aaf616023ac1)">
+  ![image](https://github.com/himazz/McQueen/assets/25781254/0534a306-5e2c-45b7-bc70-e046852a7766)
 </p>
 
 
