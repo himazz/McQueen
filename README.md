@@ -18,9 +18,12 @@
 
 4. Electrical Design:
    The electrical design focuses on creating a reliable and efficient power supply system. The DC motors (rear driving motor and steering motor) are controlled using an L298N motor driver, which provides the necessary voltage and current to drive the motors. The motor driver is connected to the Arduino, which receives signals and commands from the Raspberry Pi for motor control. The Arduino, in turn, communicates with the Raspberry Pi using suitable interface protocols.
-                                                            ** MAIN PCB**
+   
+                                                            **** MAIN PCB ****
    ![image](https://github.com/himazz/McQueen/assets/25781254/92446474-4de8-425f-b0e4-7fd1018c3934)
-                                                            ** I2C HUB **
+   
+                                                            **** I2C HUB ****
+   
    ![image](https://github.com/himazz/McQueen/assets/25781254/7c78dd78-469e-4711-9756-aaf616023ac1)
 
    
