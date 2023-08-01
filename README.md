@@ -29,8 +29,10 @@
    The self-driving car incorporates three ToF sensors, positioned in the front, right, and left directions. These sensors use infrared light to measure the distance between the car and nearby obstacles. The sensors are connected to an I2C hub, which allows multiple sensors to communicate with the Arduino using a single interface. The Arduino processes the sensor data and makes decisions based on the detected obstacle distances.
 
                                                             **** I2C HUB ****
-   
-   ![image](https://github.com/himazz/McQueen/assets/25781254/7c78dd78-469e-4711-9756-aaf616023ac1)
+<p align="center">
+  <img width="600" height="200" src="[https://www.python.org/python-.png](https://github.com/himazz/McQueen/assets/25781254/7c78dd78-469e-4711-9756-aaf616023ac1)">
+</p>
+
 
 
 
