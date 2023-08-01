@@ -18,18 +18,20 @@
 
 4. Electrical Design:
    The electrical design focuses on creating a reliable and efficient power supply system. The DC motors (rear driving motor and steering motor) are controlled using an L298N motor driver, which provides the necessary voltage and current to drive the motors. The motor driver is connected to the Arduino, which receives signals and commands from the Raspberry Pi for motor control. The Arduino, in turn, communicates with the Raspberry Pi using suitable interface protocols.
+   ![image](https://github.com/himazz/McQueen/assets/25781254/92446474-4de8-425f-b0e4-7fd1018c3934)
 
-5. Sensor Integration:
+
+6. Sensor Integration:
    The self-driving car incorporates three ToF sensors, positioned in the front, right, and left directions. These sensors use infrared light to measure the distance between the car and nearby obstacles. The sensors are connected to an I2C hub, which allows multiple sensors to communicate with the Arduino using a single interface. The Arduino processes the sensor data and makes decisions based on the detected obstacle distances.
 
-6. Software Development:
+7. Software Development:
    The software development involves programming the Arduino and Raspberry Pi to enable autonomous driving and obstacle detection. The Arduino code reads the data from the ToF sensors and sends it to the Raspberry Pi for processing. The Raspberry Pi uses computer vision algorithms to analyze the camera feed, detect obstacles, and send appropriate commands to the Arduino for motor control. The software should be designed to ensure quick and accurate decision-making to navigate the car effectively.
 
-7. Testing and Calibration:
+8. Testing and Calibration:
    After completing the hardware and software integration, extensive testing and calibration are necessary to ensure the self-driving car performs optimally. The car should be tested in various scenarios simulating the competition environment, including different obstacle configurations, varying light conditions, and different surface conditions. Testing helps identify and address any issues, such as sensor inaccuracies or software bugs, improving the overall performance of the car.
 
-8. Optimization and Refinement:
+9. Optimization and Refinement:
    Through testing, the self-driving car's performance can be evaluated, and areas for improvement can be identified. Optimization and refinement may involve adjusting the control algorithms, fine-tuning sensor calibration, optimizing power consumption, or enhancing obstacle detection accuracy. This iterative process continues until the car meets the desired performance standards.
 
-9. Conclusion:
+10. Conclusion:
    The design process of the self-driving car for the WRO competition involves careful consideration of mechanical, electrical, and software aspects. By integrating the rear driving motor, steering motor, ToF sensors, Arduino, and Raspberry Pi, a robust and autonomous vehicle can be developed. Thorough testing, calibration, and optimization are key to achieving a high-performance self-driving car that can successfully navigate obstacles and meet the competition requirements.
