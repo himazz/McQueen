@@ -3,12 +3,12 @@
 
 
 
-#YouTube video : https://youtube.com/shorts/QZWb-D41rqI
+#YouTube video : [https://youtube.com/shorts/QZWb-D41rqI]
 
 **Design Process of Self-Driving Car for WRO Competition**
 
 1. Introduction:
-   The purpose of this report is to outline the design process of a self-driving car for the World Robot Olympiad (WRO) competition. The car is equipped with one rear driving motor and one steering motor, both of which are DC motors controlled by an L298N motor driver. Additionally, the robot incorporates three Time-of-Flight (ToF) sensors located in the front, right, and left sides, connected to an Arduino via an I2C hub. The Arduino further communicates with a Raspberry Pi 4, which uses a camera for obstacle detection.
+   This report aims to outline the design process of a self-driving car for the World Robot Olympiad (WRO) competition. The car is equipped with one rear driving motor and one steering motor, both of which are DC motors controlled by an L298N motor driver. Additionally, the robot incorporates three Time-of-Flight (ToF) sensors located in the front, right, and left sides, connected to an Arduino via an I2C hub. The Arduino further communicates with a Raspberry Pi 4, which uses a camera for obstacle detection.
 
 2. Requirements Analysis:
    Before starting the design process, it is crucial to identify the requirements and constraints of the self-driving car for the WRO competition. This includes factors such as size limitations, power source, weight restrictions, and specific rules set by the competition.
@@ -22,14 +22,17 @@
                                                             **** MAIN PCB ****
    ![image](https://github.com/himazz/McQueen/assets/25781254/92446474-4de8-425f-b0e4-7fd1018c3934)
    
-                                                            **** I2C HUB ****
-   
-   ![image](https://github.com/himazz/McQueen/assets/25781254/7c78dd78-469e-4711-9756-aaf616023ac1)
 
    
 
 6. Sensor Integration:
    The self-driving car incorporates three ToF sensors, positioned in the front, right, and left directions. These sensors use infrared light to measure the distance between the car and nearby obstacles. The sensors are connected to an I2C hub, which allows multiple sensors to communicate with the Arduino using a single interface. The Arduino processes the sensor data and makes decisions based on the detected obstacle distances.
+
+                                                            **** I2C HUB ****
+   
+                     ![image](https://github.com/himazz/McQueen/assets/25781254/7c78dd78-469e-4711-9756-aaf616023ac1)
+
+
 
 7. Software Development:
    The software development involves programming the Arduino and Raspberry Pi to enable autonomous driving and obstacle detection. The Arduino code reads the data from the ToF sensors and sends it to the Raspberry Pi for processing. The Raspberry Pi uses computer vision algorithms to analyze the camera feed, detect obstacles, and send appropriate commands to the Arduino for motor control. The software should be designed to ensure quick and accurate decision-making to navigate the car effectively.
