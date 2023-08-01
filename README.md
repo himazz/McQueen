@@ -30,7 +30,7 @@
 
                                                             **** I2C HUB ****
 <p align="center">
-  <img width="600" height="200" src="[https://www.python.org/python-.png](https://github.com/himazz/McQueen/assets/25781254/7c78dd78-469e-4711-9756-aaf616023ac1)">
+  <img width="600" height="200" src="(https://github.com/himazz/McQueen/assets/25781254/7c78dd78-469e-4711-9756-aaf616023ac1)">
 </p>
 
 
